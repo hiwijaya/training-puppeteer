@@ -1,0 +1,21 @@
+{
+  "name": "training-puppeteer",
+  "version": "1.0.0",
+  "description": "Crawling website with puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "training-puppeteer"
+  },
+  "keywords": [
+    "puppeteer"
+  ],
+  "author": "Happy Indra Wijaya",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^2.0.0"
+  }
+}
