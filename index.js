@@ -6,7 +6,7 @@ const URL = 'https://hiwijaya.com';
     const browser = await puppeteer.launch({headless: true});
     const page = await browser.newPage();
     await page.setViewport({width: 1680, height: 1050});
-    await page.goto(URL, {waitUntil: 'networkidle0'});
+     await page.goto(URL, {waitUntil: 'load', timeout: 0});
     // await page.screenshot({path: 'screenshot.png'});
 
     console.log('crawling...');
